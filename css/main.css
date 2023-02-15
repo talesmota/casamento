@@ -273,10 +273,11 @@ ol {
 	-ms-flex-pack: center;
 	-moz-justify-content: center;
 	justify-content: center;
+	font-size: 40px;
 }
 .banner-text span {
 	padding: 0 15px;
-	line-height: 21px;
+	line-height: 35px;
 }
 span.banner-text_names {
 	font-family: "Good Vibes Pro", cursive;
