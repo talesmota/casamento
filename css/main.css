@@ -147,9 +147,15 @@ ol ol {
   clear: both;
 }
 @media only screen and (min-width: 768px) {
+<<<<<<< Updated upstream
   .section {
     padding: 7em 0;
   }
+=======
+	.section {
+		padding: 2em 0;
+	}
+>>>>>>> Stashed changes
 }
 .section-sm {
   padding: 3.5em 0;
@@ -2051,3 +2057,13 @@ footer .copyright .block {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.row.couple-wrap{
+	display: flex;
+    justify-content: center;
+}
+#logo-mid{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
