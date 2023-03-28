@@ -147,15 +147,9 @@ ol ol {
   clear: both;
 }
 @media only screen and (min-width: 768px) {
-<<<<<<< Updated upstream
-  .section {
-    padding: 7em 0;
-  }
-=======
 	.section {
-		padding: 2em 0;
+		padding: 1em 0;
 	}
->>>>>>> Stashed changes
 }
 .section-sm {
   padding: 3.5em 0;
