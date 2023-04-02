@@ -1145,7 +1145,7 @@ img {
 /* Counter */
 .counter {
   text-align: center;
-  background-image: url(../img/counter-bg.jpg);
+  background-image: url(../img/compress/counter-bg.jpg);
   height: auto;
 }
 @media only screen and (min-width: 768px) {
@@ -1268,7 +1268,7 @@ img {
   height: 450px;
   overflow: hidden;
   border-radius: 0;
-  background-image: url(../img/video-bg.jpg);
+  background-image: url(../img/compress/video-bg.jpg);
 }
 .invitation .video:hover .overlay {
   opacity: 0.5;
@@ -1302,11 +1302,11 @@ img {
   margin-bottom: 0;
 }
 .banner_top {
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/compress/header-bg.jpg);
 }
 .banner_bottom {
   padding: 10em 0 3em;
-  background-image: url(../img/banner-bottom.jpg);
+  background-image: url(../img/compress/banner-bottom.jpg);
 }
 .banner_bottom h2 {
   margin: 0;
@@ -1759,14 +1759,14 @@ footer .copyright .block {
   color: #ffffff;
 }
 .message-success {
-  background: url(../img/accept.png) no-repeat;
+  background: url(../img/compress/accept.png) no-repeat;
   width: 464px;
   height: 337px;
   margin: 0 auto;
 }
 /* Countdown */
 .countdown.section {
-  background-image: url(../img/countdown-bg.jpg);
+  background-image: url(../img/compress/countdown-bg.jpg);
 }
 .countdown .heading {
   margin-bottom: 8em;
