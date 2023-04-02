@@ -2023,8 +2023,7 @@ footer .copyright .block {
     right: -14px;
     left: auto;
     border-left-width: 14px;
-    bor
-    der-right-width: 0;
+    border-right-width: 0;
   }
   .bg {
     height: 903px;
@@ -2055,7 +2054,6 @@ footer .copyright .block {
 }
 
 /*# sourceMappingURL=main.css.map */
-
 
 .row.couple-wrap {
   display: flex;

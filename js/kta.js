@@ -6,16 +6,15 @@
     $(".loader").delay(600).fadeOut("slow");
     setTimeout(function () {
       $(".cover .display-tc").addClass("fadeInUp");
+      setTimeout(() => loadGallery(), 800);
+      setTimeout(function () {
+        console.log("carregando a lista de presentes.");
+        $("#lista_presentes").attr(
+          "src",
+          "https://noivos.casar.com/tales-e-mariane-kta#/presentes"
+        );
+      }, 1800);
     }, 800);
-
-    setTimeout(() => loadGallery(), 800);
-    setTimeout(function () {
-      console.log("carregando a lista de presentes.");
-      $("#lista_presentes").attr(
-        "src",
-        "https://noivos.casar.com/tales-e-mariane-kta#/presentes"
-      );
-    }, 1800);
   });
 
   // Form
