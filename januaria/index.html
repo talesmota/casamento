@@ -59,7 +59,7 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="loader"></div>
+    <div class="loader" id="loader"></div>
     <div class="main">
       <!-- Navigation -->
       <nav class="navbar" data-spy="affix" data-options="scrolltop:false">
@@ -193,75 +193,10 @@
             </div>
           </div>
           <div class="row">
+            <div class="loader" id="gallery_loader"></div>
             <div class="col-sm-12">
-              <div class="grid grid--margin">
+              <div class="grid grid--margin" id="gallery_loc">
                 <div class="grid-sizer"></div>
-                <div class="grid-item grid-item--width moments friends">
-                  <a href="../img/compress/gallery-1.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-1.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item friends party">
-                  <a href="../img/compress/gallery-13.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-13.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item moments banguet party">
-                  <a href="../img/compress/gallery-2.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-2.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item friends moments party">
-                  <a href="../img/compress/gallery-3.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-3.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item banguet family">
-                  <a href="../img/compress/gallery-14.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-14.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item banguet family">
-                  <a href="../img/compress/gallery-4.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-4.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item friends family">
-                  <a href="../img/compress/gallery-5.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-5.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item family party">
-                  <a href="../img/compress/gallery-10.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-10.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item moments family">
-                  <a href="../img/compress/gallery-7.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-7.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item banguet family">
-                  <a href="../img/compress/gallery-8.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-8.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item friends party">
-                  <a href="../img/compress/gallery-9.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-9.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item friends party">
-                  <a href="../img/compress/gallery-11.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-11.jpg" alt="gallery" />
-                  </a>
-                </div>
-                <div class="grid-item friends party">
-                  <a href="../img/compress/gallery-12.jpg" data-lightbox="roadtrip">
-                    <img src="../img/compress/gallery-12.jpg" alt="gallery" />
-                  </a>
-                </div>
-
               </div>
             </div>
           </div>
@@ -359,7 +294,7 @@
           </div>
           <!-- /.row -->
         </div>
-        <iframe id="lista_presentes"
+        <iframe id="lista_presentes" style="width: 100%; height: 1000px; border: none"
 
         ></iframe>
       </section>
