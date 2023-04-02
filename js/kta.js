@@ -476,20 +476,20 @@
   }
   $(function () {
     pageScroll();
-    mobileMenuOutsideClick();
-    offcanvasMenu();
-    burgerMenu();
-    contentWayPoint();
     dropdown();
-    testimonialCarousel();
     counter();
     counterWayPoint();
     countdown();
-    filledLabels();
-    addGuest();
-    collapseEvents();
-    singlePost();
+    // mobileMenuOutsideClick();
+    // offcanvasMenu();
+    // burgerMenu();
+    // contentWayPoint();
+    // testimonialCarousel();
+    // filledLabels();
+    // addGuest();
+    // collapseEvents();
+    // singlePost();
     // isotope();
-    contactForm();
+    // contactForm();
   });
 })();
