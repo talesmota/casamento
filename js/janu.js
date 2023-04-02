@@ -2,9 +2,21 @@
   "use strict";
 
   $(window).on("load", function () {
+    console.log("loader gone");
     $(".loader").delay(600).fadeOut("slow");
     setTimeout(function () {
       $(".cover .display-tc").addClass("fadeInUp");
+    }, 800);
+    setTimeout(function () {
+      console.log("carregando a lista de presentes.");
+      $("#lista_presentes").attr(
+        "style",
+        "width: 100%; height: 1000px; border: none"
+      );
+      $("#lista_presentes").attr(
+        "src",
+        "https://noivos.casar.com/tales-e-mariane-janu#/presentes"
+      );
     }, 800);
   });
 
