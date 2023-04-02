@@ -7,6 +7,9 @@
     setTimeout(function () {
       $(".cover .display-tc").addClass("fadeInUp");
     }, 800);
+
+    setTimeout(() => loadGallery(), 800);
+
     setTimeout(function () {
       console.log("carregando a lista de presentes.");
       $("#lista_presentes").attr(
@@ -17,8 +20,7 @@
         "src",
         "https://noivos.casar.com/tales-e-mariane-janu#/presentes"
       );
-    }, 800);
-    setTimeout(() => loadGallery(), 800);
+    }, 1800);
   });
 
   // Form
