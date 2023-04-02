@@ -8,7 +8,7 @@
       $(".cover .display-tc").addClass("fadeInUp");
     }, 800);
 
-    setTimeout(() => loadGallery(), 800);
+    setTimeout(() => loadGallery(), 1800);
 
     setTimeout(function () {
       console.log("carregando a lista de presentes.");
@@ -446,6 +446,7 @@
         $(this).addClass("is-checked");
       });
     });
+    $("#gallery_loader").delay(600).fadeOut("slow");
   };
 
   function loadGallery() {
@@ -475,7 +476,6 @@
       $("#gallery_loc").append(str);
     });
     isotope();
-    $("#gallery_loader").delay(600).fadeOut("slow");
   }
 
   $(function () {

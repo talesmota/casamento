@@ -444,6 +444,8 @@
         $(this).addClass("is-checked");
       });
     });
+
+    $("#gallery_loader").delay(600).fadeOut("slow");
   };
   function loadGallery() {
     console.log("load gallery");
@@ -472,7 +474,6 @@
       $("#gallery_loc").append(str);
     });
     isotope();
-    $("#gallery_loader").delay(600).fadeOut("slow");
   }
   $(function () {
     pageScroll();
