@@ -12,10 +12,7 @@
     setTimeout(function () {
       console.log("carregando a lista de presentes.");
       $("#lista_presentes").attr(
-        "style",
-        "width: 100%; height: 1000px; border: none"
-      );
-      $("#lista_presentes").attr(
+        "src",
         "https://noivos.casar.com/tales-e-mariane-kta#/presentes"
       );
     }, 1800);

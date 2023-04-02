@@ -147,9 +147,9 @@ ol ol {
   clear: both;
 }
 @media only screen and (min-width: 768px) {
-	.section {
-		padding: 1em 0;
-	}
+  .section {
+    padding: 1em 0;
+  }
 }
 .section-sm {
   padding: 3.5em 0;
@@ -2023,7 +2023,11 @@ footer .copyright .block {
     right: -14px;
     left: auto;
     border-left-width: 14px;
-    border-right-width: 0;
+    bor
+    der-right-width: 0;
+  }
+  .bg {
+    height: 903px;
   }
 }
 @media (max-width: 600px) {
@@ -2052,12 +2056,43 @@ footer .copyright .block {
 
 /*# sourceMappingURL=main.css.map */
 
-.row.couple-wrap{
-	display: flex;
-    justify-content: center;
+
+.row.couple-wrap {
+  display: flex;
+  justify-content: center;
+  height: 330px;
+  align-content: center;
+  align-items: center;
 }
-#logo-mid{
-	display: flex;
-    align-items: center;
-    justify-content: center;
+#logo-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader_gallery {
+  color: #000;
+  position: absolute;
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: 1009;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.loader_gallery:after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: solid 8px #000;
+  border-left-color: transparent;
+  border-radius: 50%;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  animation: rotate 1s linear infinite;
 }
