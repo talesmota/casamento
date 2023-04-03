@@ -484,7 +484,7 @@
     // testimonialCarousel();
     // filledLabels();
     // addGuest();
-    // collapseEvents();
+    collapseEvents();
     // singlePost();
     // isotope();
     // contactForm();
