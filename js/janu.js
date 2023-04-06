@@ -483,10 +483,10 @@
     counter();
     counterWayPoint();
     countdown();
-    // mobileMenuOutsideClick();
-    // offcanvasMenu();
-    // burgerMenu();
-    // contentWayPoint();
+    mobileMenuOutsideClick();
+    offcanvasMenu();
+    burgerMenu();
+    contentWayPoint();
     // testimonialCarousel();
     // filledLabels();
     // addGuest();
@@ -496,3 +496,4 @@
     // contactForm();
   });
 })();
+//
